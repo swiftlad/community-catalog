@@ -1,5 +1,5 @@
 name: MongoDB
 description: |
   MongoDB Replica Set.
-version: "3.6-rancher1-noaffinity"
+version: "3.6-rancher1"
 category: Databases
