@@ -7,6 +7,7 @@ services:
       CATTLE_SCRIPT_DEBUG: ${debug}
     entrypoint: /opt/rancher/bin/entrypoint.sh
     command:
+    - --bind_ip_all
     - --replSet
     - "${replset_name}"
     image: mongo:3.6
